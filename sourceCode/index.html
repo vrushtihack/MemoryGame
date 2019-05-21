@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Memory Game</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">     
+    </head>
+    <body style="background-color: #303030;">
+        <h1><i class="far fa-lightbulb"></i> Memory game</h1><br>
+        <div class="controls">
+        <button class="btn btn-primary btn-lg reset">Reset</button>
+        <button class="btn btn-success btn-lg">Got it</button>
+        <button class="btn btn-warning btn-lg">Remaining Box: <span class="remaining">4</span></button>
+        <button class="btn btn-info btn-lg">Attempt: <span class="attempt">0</span></button>
+        <hr>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 col-sm-1"></div>
+            <div class="col-lg-2 col-sm-2">
+                <h4>Select from below:</h4>
+                <div class="colorSquare">
+                    <button class="color"></button>
+                    <button class="color"></button>
+                    <button class="color"></button>
+                    <button class="color"></button>
+                </div>
+            </div>
+            <div class="col-lg-1 col-sm-1" style="border-left:2px solid white;"></div>
+            <div class="col-lg-7 col-sm-7" >
+                <div class="askcolor">
+                    <button class="squares"></button>
+                    <button class="squares"></button>
+                    <button class="squares"></button>
+                    <button class="squares"></button>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="memoryGame.js"></script>
+    </body>
+</html>
